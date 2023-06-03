@@ -1,6 +1,6 @@
 * {
 color: blueviolet;
-
+border: 1px dotted red;
 }
 
 h2 {
@@ -9,19 +9,26 @@ h2 {
 }
 
 h3{
+    
     color: blue;
+}
 
+h3 {
+    margin-left: 400px;
 }
 .vip_items {
+    height: 50px;
+    width: 120px;
+    display: inline;
     color: black;
     background-color: blueviolet;
 }
 
-#vip_vip {
-    background-color:burlywood;
+span{
+display: block;
+
 }
 
-
-
-
-
+#vip_vip1 {
+    background-color:burlywood;
+}
