@@ -1,0 +1,52 @@
+/* *{
+    border: red 1px dotted;
+} */
+
+header{
+    height: 30px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    height: 10px;
+    width: 10px;
+}
+
+header button{
+    color:white;
+    background-color:#3a5795;
+    font-weight: bolder;
+    border: solid 0.5px gray;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #666666;
+}
+
+
+
+nav{
+display: flex;
+}
+nav div{
+    width: 65%;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+
+nav img{
+    width: 30%;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
