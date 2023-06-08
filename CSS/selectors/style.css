@@ -1,0 +1,59 @@
+h1::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: red;
+}
+
+h2::marker{
+    color: green;
+}
+
+a::after {
+    content: "→";
+    margin-left: 5px;
+    color: blue;
+  }
+
+
+  input::placeholder {
+    color: gray;
+    font-style: italic;
+  }
+
+
+
+
+  /* Style the link when it is hovered over */
+a:hover {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  /* Select the first child element of a parent */
+  ul li:first-child {
+    font-weight: bold;
+    border: green solid 1px;
+  }
+  
+  /* Apply styles to every other row in a table */
+  li:nth-child(even) {
+    background-color: #e75b5b;
+  }
+  
+  /* Select the input element when it is in focus */
+  input:focus {
+    border-color:red;
+    box-shadow: 5px 5px 10px red;
+  }
+  
+  /* Style a button when it is in a disabled state */
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  p:hover{
+    background-color: aqua;
+  }
