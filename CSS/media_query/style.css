@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+div{
+    background-color: blueviolet;
+    border: solid 2px red;
+    height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    div{
+        width: 99%; 
+        font-size: 30px;
+
+    }
+    }
+
+
+    @media screen and (max-width: 980px)  and (min-width: 481px) {
+        div{
+            width: 49% ; 
+            font-size: 60px;
+        }
+
+        }
+
+    @media screen and  (min-width: 981px) {
+            div{
+                width: 24% ; 
+                font-size: 80px;
+
+            }
+            }
