@@ -1,0 +1,35 @@
+h1:hover{
+    background-color: aqua;
+    font-size:small;
+
+}
+
+div p {
+    display: none;
+    background-color: yellow;
+  }
+  
+  div:hover p {
+    display: block;
+  }
+
+tr:nth-child(3n){
+    background-color: aqua;
+}
+p::first-letter{
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p:hover{
+    background-color:azure;
+    font-size: x-large;
+}
+
+button{
+    background-color: green;
+}
+button:disabled{
+    background-color: blue;
+}

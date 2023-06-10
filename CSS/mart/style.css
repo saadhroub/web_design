@@ -1,6 +1,3 @@
-/* *{
-    border: red 1px dotted;
-} */
 
 header{
     height: 30px;
@@ -28,18 +25,36 @@ header a{
 }
 
 
-
 nav{
 display: flex;
+flex-wrap: wrap;
 }
+
 nav div{
     width: 65%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-
     justify-content: space-evenly;
 }
 
+
+@media screen and (max-width:600px) {
+    nav div{
+        width: 99%; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav a{
+        display: block;
+        background-color: aqua;
+        width: 100px;
+
+    }
+}
+
+    
 nav img{
     width: 30%;
 }
@@ -48,5 +63,6 @@ nav a{
     text-decoration: none;
     font-weight: bolder;
     color: darkblue;
+    width: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
