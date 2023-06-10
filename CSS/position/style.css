@@ -1,0 +1,15 @@
+div{
+    border: 2px solid black;
+    width: 500px;
+    height: 80px;
+    position: fixed;
+    left: 200px;
+    bottom: 10px;
+    background-color: blueviolet;
+}
+
+button{
+    position: relative;
+    left: 400px;
+    bottom: 10px;
+}
