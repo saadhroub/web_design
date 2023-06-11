@@ -5,7 +5,13 @@ div{
     width: 100px;
     height: 100px;
     display: inline-block;
+    font-size: larger;
+}
 
+
+img{
+    width: 100px;
+    height: 100px;
 }
 
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>(
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,45 @@
     <script src="script.js"></script>
 </head>
 <body>
+<form action="#">
+
+    <input oninput="checkName(this)" type="text" name="" id="">
+    <p>Empty Name</p>
+
+
+
+    
+    <label>I would like to Study </label>
+
+<select onchange="myLanguage(this)">
+    <option>English</option>
+    <option>Hebrow</option>
+    <option>French</option>
+</select>
+</form>
+
+
+    <img  src="cat1.jpg" alt="PET"
+    onmouseover="showDog(),addEffects()"
+    onmouseout="showCat(), removeEffects()"
+
+    >
+    <hr>
+
+
+
+
+    <button onclick="changer1()">Colors 1</button>
+    <button onclick="changer2()">Colors 2</button>
+    <button onclick="changer3()">Font++</button>
+    <button onclick="changer4()">Font--</button>
+
+    <p id="par1">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+    <p id="par2">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+    <p id="par3">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+    <p id="par4">We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+
+
     <button onclick="alert('Hey, I am from HTML')">
         Click Me!
     </button>
@@ -20,7 +59,9 @@
     <button onclick="light(this)">On</button>
     <button onclick="light(this)">On</button>
     <button onclick="light(this)">On</button>
-    <p onclick="hide(this)">
+    <p onclick="hide(this)" 
+    onmouseover="over(this)"
+    onmouseleave="leave(this)">
         welcome to Amideast
         welcome to Amideast
         welcome to Amideast
