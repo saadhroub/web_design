@@ -1,0 +1,15 @@
+div{
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+
+video{
+    width: 300px;
+    height: 300px; 
+}

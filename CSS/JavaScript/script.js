@@ -12,4 +12,20 @@ function hide(element){
 }
 
 
+function styleMe(element){
+    element.style.backgroundColor = "green";
+    element.style.width="50px";
+    element.style.height="50px";
+    element.style.border="2px solid red";
+
+}
+
+
+function styleMe2(element){
+    element.style.backgroundColor = "#234567";
+}
+
+function aaa(element){
+    element.style.backgroundColor = "black";
+}
 
